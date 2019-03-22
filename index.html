@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div id="board">
+            <div id="0" class="cell" onclick="placePiece('0')"></div>
+            <div id="1" class="cell" onclick="placePiece('1')"></div>
+            <div id="2" class="cell" onclick="placePiece('2')"></div>
+            <div id="3" class="cell" onclick="placePiece('3')"></div>
+            <div id="4" class="cell" onclick="placePiece('4')"></div>
+            <div id="5" class="cell" onclick="placePiece('5')"></div>
+            <div id="6" class="cell" onclick="placePiece('6')"></div>
+            <div id="7" class="cell" onclick="placePiece('7')"></div>
+            <div id="8" class="cell" onclick="placePiece('8')"></div>
+        </div>
+
+        <h2>Current Player: <span id="currentPlayer">1</span></h2>
+        <h2>Current Player's Piece:<span id="currentPlayerPiece">x</span></h2>
+        <button>Reset</button>
+        <button>New Game</button>
+        <script src="app.js"></script>
+    </body>
+</html>

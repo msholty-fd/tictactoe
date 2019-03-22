@@ -1,0 +1,20 @@
+.cell {
+    border: 1px solid black;
+}
+
+.x:after {
+    content: "x";
+    font-size: 40px;
+}
+
+.o:after {
+    content: "o";
+    font-size: 40px;
+}
+
+#board {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
